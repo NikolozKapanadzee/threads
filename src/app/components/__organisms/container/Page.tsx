@@ -8,6 +8,14 @@ import nikiprofile from "@/app/images/img/nikiprofile.jpeg";
 import nikicontent from "@/app/images/img/nikicontent.png"
 import iliaprofile from "@/app/images/img/iliaprofile.jpg";
 import iliacontent from "@/app/images/img/iliacontent.jpg"
+import vaxoprofile from "@/app/images/img/vaxoprofile.jpeg";
+import vaxocontent from "@/app/images/img/vaxocontent.png"
+import cerceiprofile from "@/app/images/img/cerceiprofile.webp";
+import cerceicontent from "@/app/images/img/cerceicontent.jpg"
+import nikoprofile from "@/app/images/img/nikoprofile.jpg";
+import nikoicontent from "@/app/images/img/nikocontent.jpg"
+import lukaprofile from "@/app/images/img/lukaprofile.jpg";
+import lukaicontent from "@/app/images/img/lukacontent.png"
 function Container() {
   return (
    <>
@@ -25,6 +33,18 @@ function Container() {
       <FakePosts 
       user="Ilia Topuria" time="2d" title="Not Like Us" favouriteQuantity={321349} commentsQuantity={1}
       repostQuantity={32314} sendQuantity={13029} profileImg={iliaprofile} contentImg={iliacontent}/>
+      <FakePosts 
+      user="Vaxo Janiashvili" time="3d" title="თუ დაგჭირდათ დახმარება მომწერეთ მეგობრებო" favouriteQuantity={11} commentsQuantity={1}
+      repostQuantity={4} sendQuantity={1} profileImg={vaxoprofile} contentImg={vaxocontent}/>
+      <FakePosts 
+      user="Cercei Lannister" time="3d" title="Power is power" favouriteQuantity={231} commentsQuantity={2}
+      repostQuantity={5} sendQuantity={19} profileImg={cerceiprofile} contentImg={cerceicontent}/>
+      <FakePosts 
+      user="Nikoloz Kapanadze" time="4d" title="Let Down Underrated!" favouriteQuantity={1000000} commentsQuantity={1}
+      repostQuantity={30} sendQuantity={892} profileImg={nikoprofile} contentImg={nikoicontent}/>
+      <FakePosts 
+      user="Luka Sulakvelidze" time="5d" title="ნიკო არ არის ეგ კაი პრაქტიკა დინამიური უნდა იყოს ყველაფერი" favouriteQuantity={1} commentsQuantity={1}
+      repostQuantity={1} sendQuantity={1} profileImg={lukaprofile} contentImg={lukaicontent}/>
     </div>
    </div>
    </>
