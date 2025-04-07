@@ -1,9 +1,7 @@
-import Main from "../app/components/__organisms/main/Page";
+"use client";
+import React from "react";
+import Home from "./(pages)/Home/page";
 
-export default function Home() {
-  return (
-    <>
-    <Main />
-    </>
-  );
-}
+const page = () => <Home />;
+
+export default page;
