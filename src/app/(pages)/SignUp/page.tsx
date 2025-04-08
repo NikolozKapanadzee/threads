@@ -5,7 +5,7 @@ import Input from "@/app/components/__atoms/Input";
 import Button from "../../components/__atoms/Button";
 import Link from "next/link";
 import { auth } from "@/app/firebase/config";
-import { useRouter } from "next/router";
+import { useRouter } from "next/navigation";
 
 export default function Signup() {
   const emailRef = useRef<HTMLInputElement>(null);
@@ -44,9 +44,17 @@ export default function Signup() {
     <div className="bg-[url('images/img/background.avif')] h-screen bg-no-repeat bg-contain flex items-center justify-center">
       <div className="flex flex-col gap-2 items-center">
         <h1 className="text-[#FFFFFF]">Sign Up</h1>
-        <Input placeholderField="Username" ref={emailRef} />
-        <Input placeholderField="Password" ref={passwordRef} />
-        <Input placeholderField="Repeat Password" ref={repeatPasswordRef} />
+        <Input placeholderField="Email" ref={emailRef} />
+        <Input
+          placeholderField="Password"
+          typeField="password"
+          ref={passwordRef}
+        />
+        <Input
+          placeholderField="Repeat Password"
+          typeField="password"
+          ref={repeatPasswordRef}
+        />
         <Button onClick={handleSignUp} title="Sign up" />
         <p className="text-[#ffffff]">or</p>
         <Link href="/SignIn">
