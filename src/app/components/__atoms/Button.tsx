@@ -1,8 +1,13 @@
 import React from "react";
 
-function Button() {
+function Button({ onClick, title }: { onClick: () => void; title: string }) {
   return (
-    <button className="bg-[#FFFFFF] h-14 w-[370px] rounded-lg">Log in</button>
+    <button
+      onClick={onClick}
+      className="bg-[#FFFFFF] h-14 w-[370px] rounded-lg"
+    >
+      {title}
+    </button>
   );
 }
 
