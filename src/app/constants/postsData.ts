@@ -12,8 +12,6 @@ import nikoicontent from "@/app/images/img/nikocontent.jpg";
 import lukaprofile from "@/app/images/img/lukaprofile.jpg";
 import lukaicontent from "@/app/images/img/lukacontent.png";
 import jaimeprofile from "@/app/images/img/jaimeprofile.jpg";
-import iliaprofile from "@/app/images/img/iliaprofile.jpg";
-import iliacontent from "@/app/images/img/iliacontent.jpg";
 
 const PostsData = [
   {
@@ -48,17 +46,6 @@ const PostsData = [
     sendQuantity: 1,
     profileImg: nikiprofile,
     contentImg: nikicontent,
-  },
-  {
-    user: "Ilia Topuria",
-    time: "2d",
-    title: "Not Like Us",
-    favouriteQuantity: 1,
-    commentsQuantity: 1,
-    repostQuantity: 1,
-    sendQuantity: 1,
-    profileImg: iliaprofile,
-    contentImg: iliacontent,
   },
   {
     user: "Vaxo Janiashvili",
