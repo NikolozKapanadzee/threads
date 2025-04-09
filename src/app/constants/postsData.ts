@@ -1,11 +1,8 @@
-import jaimeprofile from "@/app/images/img/jaimelannister.jpg";
-import jaimeandjon from "@/app/images/img/jaimeandjon.jpg";
+import jaimeandjon from "@/app/images/img/jaimecontent.jpg";
 import gujaprofile from "@/app/images/img/gujaprofile.jpg";
 import gujaragbi from "@/app/images/img/gujaragbi.jpg";
 import nikiprofile from "@/app/images/img/nikiprofile.jpeg";
 import nikicontent from "@/app/images/img/nikicontent.png";
-import iliaprofile from "@/app/images/img/iliaprofile.jpg";
-import iliacontent from "@/app/images/img/iliacontent.jpg";
 import vaxoprofile from "@/app/images/img/vaxoprofile.jpeg";
 import vaxocontent from "@/app/images/img/vaxocontent.png";
 import cerceiprofile from "@/app/images/img/cerceiprofile.webp";
@@ -14,6 +11,9 @@ import nikoprofile from "@/app/images/img/nikoprofile.jpg";
 import nikoicontent from "@/app/images/img/nikocontent.jpg";
 import lukaprofile from "@/app/images/img/lukaprofile.jpg";
 import lukaicontent from "@/app/images/img/lukacontent.png";
+import jaimeprofile from "@/app/images/img/jaimeprofile.jpg";
+import iliaprofile from "@/app/images/img/iliaprofile.jpg";
+import iliacontent from "@/app/images/img/iliacontent.jpg";
 
 const PostsData = [
   {
