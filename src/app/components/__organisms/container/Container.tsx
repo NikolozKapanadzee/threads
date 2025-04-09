@@ -6,7 +6,7 @@ function Container() {
   return (
     <div className="main_div flex flex-row-reverse  gap-3 mt-4">
       <Login />
-      <div className="content_container h-auto max-h-screen overflow-y-auto  w-[640px] bg-[#1a1919] rounded-[28px] overflow-auto">
+      <div className="content_container h-auto   w-[640px] bg-[#1a1919] rounded-[28px] overflow-auto">
         {PostsData.map((post, index) => (
           <FakePosts
             key={index}

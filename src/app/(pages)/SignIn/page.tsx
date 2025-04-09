@@ -11,7 +11,6 @@ export default function SignIn() {
   const emailRef = useRef<HTMLInputElement>(null);
   const passwordRef = useRef<HTMLInputElement>(null);
   const router = useRouter();
-  const [isRegistered, setIsRegistered] = useState(false);
 
   const handleSignIn = async () => {
     const email = emailRef.current?.value || "";
@@ -23,7 +22,6 @@ export default function SignIn() {
     }
     try {
       await signInWithEmailAndPassword(auth, email, password);
-      setIsRegistered(true);
       router.push("/Home");
     } catch (error) {
       alert(

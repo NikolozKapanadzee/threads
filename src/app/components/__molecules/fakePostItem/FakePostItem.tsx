@@ -1,4 +1,5 @@
-import React from "react";
+"use client";
+import React, { useState } from "react";
 import ReportIcon from "@/app/images/icons/reportIcon/Page";
 import Image from "next/image";
 import CommentIcon from "@/app/images/icons/commentIcon/Page";
@@ -61,7 +62,9 @@ function FakePosts({
           </div>
           <div className="icons_div flex items-center gap-4 mt-3">
             <div className="love_div flex items-center">
-              <FavouritesIcon />
+              <button>
+                <FavouritesIcon />
+              </button>
               <p className="text-[#CCCCCC]">{favouriteQuantity}</p>
             </div>
             <div className="comment_div flex items-center">
