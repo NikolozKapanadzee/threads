@@ -1,5 +1,5 @@
 "use client";
-import React, { useRef, useState } from "react";
+import React, { useRef } from "react";
 import Input from "@/app/components/__atoms/Input";
 import Button from "../../components/__atoms/Button";
 import Link from "next/link";

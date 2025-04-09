@@ -1,5 +1,4 @@
 "use client";
-import React, { useState } from "react";
 import ReportIcon from "@/app/images/icons/reportIcon/Page";
 import Image from "next/image";
 import CommentIcon from "@/app/images/icons/commentIcon/Page";
